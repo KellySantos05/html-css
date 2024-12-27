@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - backgroung
+                color > image > position > repeat > [size ainda não funciona na shorthand, apesar de no manual estar escrito que ele pode entrar.] > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
             main {
                 background-color: white;
-                width: 400px;
+                max-width: 400px;
                 padding: 10px;
                 margin: auto;
                 border: 1px solid darkblue;
@@ -27,6 +34,14 @@
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam odio, velit voluptas ipsam vel eveniet. Distinctio dolorem odio asperiores fugit sint ipsum mollitia rerum vel nisi. Sunt molestiae veniam quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, deleniti nemo quae nostrum, non accusamus quod id totam nesciunt voluptates voluptate culpa accusantium magni atque velit minus nisi numquam distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus accusamus iste harum totam, non adipisci magnam dignissimos eum delectus voluptatem autem eos reprehenderit maiores cumque! Voluptas reprehenderit obcaecati nihil animi?
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam odio, velit voluptas ipsam vel eveniet. Distinctio dolorem odio asperiores fugit sint ipsum mollitia rerum vel nisi. Sunt molestiae veniam quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, deleniti nemo quae nostrum, non accusamus quod id totam nesciunt voluptates voluptate culpa accusantium magni atque velit minus nisi numquam distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus accusamus iste harum totam, non adipisci magnam dignissimos eum delectus voluptatem autem eos reprehenderit maiores cumque! Voluptas reprehenderit obcaecati nihil animi? </p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam odio, velit voluptas ipsam vel eveniet. Distinctio dolorem odio asperiores fugit sint ipsum mollitia rerum vel nisi. Sunt molestiae veniam quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, deleniti nemo quae nostrum, non accusamus quod id totam nesciunt voluptates voluptate culpa accusantium magni atque velit minus nisi numquam distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus accusamus iste harum totam, non adipisci magnam dignissimos eum delectus voluptatem autem eos reprehenderit maiores cumque! Voluptas reprehenderit obcaecati nihil animi?</p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam odio, velit voluptas ipsam vel eveniet. Distinctio dolorem odio asperiores fugit sint ipsum mollitia rerum vel nisi. Sunt molestiae veniam quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, deleniti nemo quae nostrum, non accusamus quod id totam nesciunt voluptates voluptate culpa accusantium magni atque velit minus nisi numquam distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus accusamus iste harum totam, non adipisci magnam dignissimos eum delectus voluptatem autem eos reprehenderit maiores cumque! Voluptas reprehenderit obcaecati nihil animi?</p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam odio, velit voluptas ipsam vel eveniet. Distinctio dolorem odio asperiores fugit sint ipsum mollitia rerum vel nisi. Sunt molestiae veniam quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, deleniti nemo quae nostrum, non accusamus quod id totam nesciunt voluptates voluptate culpa accusantium magni atque velit minus nisi numquam distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus accusamus iste harum totam, non adipisci magnam dignissimos eum delectus voluptatem autem eos reprehenderit maiores cumque! Voluptas reprehenderit obcaecati nihil animi?</p>
         </p>
     </main>
 </body>
